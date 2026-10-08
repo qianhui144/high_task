@@ -1,0 +1,43 @@
+# Keil MDK 编译中间文件
+Objects/
+Listings/
+*.o
+*.crf
+*.d
+*.dep
+*.lst
+*.map
+*.bin
+*.hex
+*.axf
+*.lnp
+*.sct
+*.scr
+*.ie
+*.ic
+*.in
+*.i
+*.crf.d
+
+# Keil 工程用户文件
+*.uvguix.*
+*.uvoptx
+*.uvprojx.bak
+DebugConfig/
+RTE/_*/
+
+# 临时文件
+*.bak
+*.tmp
+*~
+
+# IDE / OS
+.idea/
+.vscode/
+.settings/
+Thumbs.db
+Desktop.ini
+
+# 下载/调试工具
+*.jlink
+*.-launch
